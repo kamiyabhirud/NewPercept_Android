@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    tools:context="com.example.activity.ResultSearchByOfficeNameActivity" >
+  
+      <ListView
+  android:id="@android:id/list"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" >
+</ListView> 
+<!--       <Button -->
+<!--             android:id="@+id/button_searchbyofficenamemap" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_marginTop="20dp" -->
+<!--             android:ems="10" -->
+<!--             android:text=" View On Map " /> -->
+     
+       <Button
+            android:id="@+id/button_searchbyofficenamecancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text=" Cancel " />
+      
+
+</LinearLayout>

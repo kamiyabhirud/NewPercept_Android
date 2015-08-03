@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NewPercept</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="title_activity_register_page">RegisterActivity</string>
+    <string name="title_activity_benefits_home">BenefitsHomeActivity</string>
+    <string name="title_activity_find_adoctor_home">FindADoctorHomeActivity</string>
+    <string name="title_activity_my_accounthome">MyAccounthomeActivity</string>
+    <string name="title_activity_how_to_use_my_benefits">HowToUseMyBenefitsActivity</string>
+    <string name="title_activity_benefits_with_in_network_providers">BenefitsWithInNetworkProvidersActivity</string>
+    <string name="title_activity_benefits_with_out_network_providers">BenefitsWithOutNetworkProvidersActivity</string>
+    <string name="title_activity_member_vision_card">MemberVisionCardActivity</string>
+    <string name="title_activity_find_adoc">FindADocActivity</string>
+    <string name="title_activity_search_by_location">SearchByLocationActivity</string>
+    <string name="title_activity_search_by_doctor_name">SearchByDoctorNameActivity</string>
+    <string name="title_activity_searchby_office_name">SearchbyOfficeNameActivity</string>
+    <string name="title_activity_with_in_network_speciality_diabetic_eye_care">WithInNetworkSpecialityDiabeticEyeCare</string>
+    <string name="title_activity_result_search_by_doctor_name">ResultSearchByDoctorNameActivity</string>
+    <string name="title_activity_result_search_by_office_name">ResultSearchByOfficeNameActivity</string>
+    <string name="title_activity_route_list">RouteListActivity</string>
+    <string name="title_activity_list_of_routes">ListOfRoutesActivity</string>
+    <string name="title_activity_list_of_routes_search_by_doctor_name">ListOfRoutesSearchByDoctorNameActivity</string>
+    <string name="title_activity_glasses_contact_shades">GlassesContactShadesActivity</string>
+    <string name="title_activity_step_by_step_direction_office_search">StepByStepDirectionOfficeSearchActivity</string>
+    <string name="title_activity_my_account_home">MyAccountHomeActivity</string>
+    <string name="title_activity_payment_history">PaymentHistoryActivity</string>
+    <string name="title_activity_payment_accounts">PaymentAccountsActivity</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="title_activity_frames_home">FramesHomeActivity</string>
+    <string name="title_activity_contacts_home">ContactsHomeActivity</string>
+    <string name="title_activity_sun_glasses_home">SunGlassesHomeActivity</string>
+    <string name="title_activity_step_by_step_direction_doctor_name_search">StepByStepDirectionDoctorNameSearchActivity</string>
+    <string name="title_activity_result_search_by_location">ResultSearchByLocationActivity</string>
+    <string name="title_activity_list_of_routes_search_by_location">ListOfRoutesSearchByLocationActivity</string>
+    <string name="title_activity_step_by_step_direction_location_search">StepByStepDirectionLocationSearchActivity</string>
+    <string name="title_activity_pay_my_bill">PayMyBillActivity</string>
+    <string name="title_activity_automatic_payments">AutomaticPaymentsActivity</string>
+    <string name="title_activity_new_payment_account">NewPaymentAccountActivity</string>
+    <string name="title_activity_set_up_automatic_payment">SetUpAutomaticPaymentActivity</string>
+    <string name="title_activity_add_new_account">AddNewAccountActivity</string>
+    <string name="title_activity_simple_demo">SimpleDemo</string>
+    <string name="title_activity_display_maps">DisplayMapsActivity</string>
+    <string name="title_activity_maps_route">MapsRouteActivity</string>
+
+</resources>

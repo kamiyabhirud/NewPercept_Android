@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.activity.AddNewAccountActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:text="Select Type of Account "
+        android:textColor="@color/DarkSeaGreen"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radiogrpacct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radiocreditcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Credit Card" />
+
+        <RadioButton
+            android:id="@+id/radiocheckings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Checkings" />
+
+        <RadioButton
+            android:id="@+id/radiosavings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Savings" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:background="@drawable/roundcorner"
+        android:text=" Add " />
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:background="@drawable/roundcorner"
+        android:text=" Back " />
+
+</LinearLayout>

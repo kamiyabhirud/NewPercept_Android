@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ImageButton
+        android:id="@+id/isunglasses2"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/isunglasses1"
+        android:layout_toRightOf="@+id/isunglasses1"
+        android:background="@android:color/transparent"
+        android:contentDescription="gucci_logo"
+        android:scaleType="fitXY"
+        android:src="@drawable/gucciframe2" />
+
+    <ImageButton
+        android:id="@+id/isunglasses3"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/isunglasses2"
+        android:layout_toLeftOf="@+id/isunglasses2"
+        android:background="@android:color/transparent"
+        android:contentDescription="gucci_logo"
+        android:scaleType="fitXY"
+        android:src="@drawable/gucciframe3" />
+
+    <ImageButton
+        android:id="@+id/isunglasses4"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/isunglasses2"
+        android:layout_toRightOf="@+id/isunglasses3"
+        android:background="@android:color/transparent"
+        android:contentDescription="gucci_logo"
+        android:scaleType="fitXY"
+        android:src="@drawable/gucciframe4" />
+
+    <ImageButton
+        android:id="@+id/isunglasses5"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/isunglasses3"
+        android:layout_toLeftOf="@+id/isunglasses4"
+        android:background="@android:color/transparent"
+        android:contentDescription="gucci_logo"
+        android:scaleType="fitXY"
+        android:src="@drawable/gucciframe5" />
+
+    <ImageButton
+        android:id="@+id/isunglasses6"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/isunglasses3"
+        android:layout_toRightOf="@+id/isunglasses3"
+        android:background="@android:color/transparent"
+        android:contentDescription="gucci_logo"
+        android:scaleType="fitXY"
+        android:src="@drawable/gucciframe6" />
+
+    <ImageButton
+        android:id="@+id/isunglasses1"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="gucci_logo"
+        android:scaleType="fitXY"
+        android:src="@drawable/gucciframe1" />
+
+    <ImageButton
+        android:id="@+id/isunglasses7"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/isunglasses5"
+        android:layout_toLeftOf="@+id/isunglasses6"
+        android:background="@android:color/transparent"
+        android:contentDescription="gucci_logo"
+        android:scaleType="fitXY"
+        android:src="@drawable/frame1" />
+
+    <ImageButton
+        android:id="@+id/isunglasses8"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/isunglasses7"
+        android:layout_toRightOf="@+id/isunglasses7"
+        android:background="@android:color/transparent"
+        android:contentDescription="gucci_logo"
+        android:scaleType="fitXY"
+        android:src="@drawable/frame3" />
+
+</RelativeLayout>

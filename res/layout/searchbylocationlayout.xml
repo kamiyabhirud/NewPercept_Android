@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.activity.SearchByLocationActivity" >
+
+    <TextView
+        android:id="@+id/tvfinddocbyloc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:text="Find A Doctor By Location/Services"
+        android:textColor="@color/DarkSeaGreen"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvfinddocbyloc" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:shrinkColumns="*"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/rowsecondzipcode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/tvzipcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text=" Zipcode " />
+
+                <EditText
+                    android:id="@+id/et_zipcode"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:maxLength="10" />
+            </TableRow>
+
+<!--             <TableRow -->
+<!--                 android:id="@+id/rowthreeor" -->
+<!--                 android:layout_width="fill_parent" -->
+<!--                 android:layout_height="2dp" -->
+<!--                 android:gravity="start" -->
+<!--                 android:padding="1dip" > -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/tvor" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="18dp" -->
+<!--                     android:layout_marginTop="2dp" -->
+<!--                     android:text=" OR " /> -->
+<!--             </TableRow> -->
+
+            <TableRow
+                android:id="@+id/rowfourstate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/tvstate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text=" State " />
+
+                <EditText
+                    android:id="@+id/et_state"
+                    android:layout_width="150dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:maxLength="10" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowfiveframebrand"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/tvframebrand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text=" Frame Brand " />
+
+                <!-- <EditText -->
+                <!-- android:id="@+id/et_framebrand" -->
+                <!-- android:layout_width="150dip" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginLeft="5dip" -->
+                <!-- android:layout_weight="1" -->
+                <!-- android:maxLength="10" > -->
+                <!-- </EditText> -->
+
+                <Spinner
+                    android:id="@+id/dropdownframe"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowsix"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/tvservices"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text=" Services " />
+
+                <TextView
+                    android:id="@+id/tvproducts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text=" Products " />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowseven"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <CheckBox
+                    android:id="@+id/chkeyeexam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Eye Exam"
+                    android:textSize="12dip" />
+
+                <CheckBox
+                    android:id="@+id/chkglasses"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Glasses"
+                    android:textSize="12dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/roweight"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal" >
+
+                <CheckBox
+                    android:id="@+id/chkextendedhrs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Extended hours"
+                    android:textSize="12dip" />
+
+                <CheckBox
+                    android:id="@+id/chkfeaturedframebrand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Featured Frame Brand"
+                    android:textSize="12dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rownine"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <CheckBox
+                    android:id="@+id/chkvisiontherapy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Vision Therapy"
+                    android:textSize="12dip" />
+
+                <CheckBox
+                    android:id="@+id/chkcontactlens"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Contact Lens"
+                    android:textSize="12dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowsten"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal" >
+
+                <CheckBox
+                    android:id="@+id/chkchildrensmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Children between 0-3"
+                    android:textSize="12dip" />
+
+                <CheckBox
+                    android:id="@+id/chksportseyewear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Sports Eye wear"
+                    android:textSize="12dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowseleven"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <CheckBox
+                    android:id="@+id/chkadvanceeyeexam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Advance  "
+                    android:textSize="12dip" />
+
+                <CheckBox
+                    android:id="@+id/chkunitylenses"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Unity Lenses"
+                    android:textSize="12dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowtwelve"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <CheckBox
+                    android:id="@+id/chkexpresseyewear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Express Eye Wear"
+                    android:textSize="12dip" />
+
+                <CheckBox
+                    android:id="@+id/chkhardtofit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Hard-to-fit Contacts"
+                    android:textSize="12dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowsthirteen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <CheckBox
+                    android:id="@+id/chklaservisioncare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Laser Vision Care"
+                    android:textSize="12dip" />
+
+                <CheckBox
+                    android:id="@+id/chkotiseyewear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Otis and Piper Eyewear"
+                    android:textSize="12dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowfourteen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <CheckBox
+                    android:id="@+id/chkchildrenbig"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Children between 3-5"
+                    android:textSize="12dip" />
+
+                <CheckBox
+                    android:id="@+id/chksafety"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="SafetyPro Tec Eyewear"
+                    android:textSize="12dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowfifteen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <CheckBox
+                    android:id="@+id/chkpreventative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Preventative Eye Care"
+                    android:textSize="12dip" />
+
+                <CheckBox
+                    android:id="@+id/chklowvision"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Low Vision"
+                    android:textSize="12dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowsixteen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <CheckBox
+                    android:id="@+id/chkspecialoffers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Special Offers and Savings"
+                    android:textSize="12dip" />
+
+                <CheckBox
+                    android:id="@+id/chkgoogleglasses"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Google Glass Lenses"
+                    android:textSize="12dip" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rowseventeen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/button_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/roundcorner"
+                    android:ems="10"
+                    android:text=" Back " />
+
+                <Button
+                    android:id="@+id/button_searchbylocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/roundcorner"
+                    android:ems="10"
+                    android:text=" Search " />
+
+                <Button
+                    android:id="@+id/button_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/roundcorner"
+                    android:ems="10"
+                    android:text=" Home " />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

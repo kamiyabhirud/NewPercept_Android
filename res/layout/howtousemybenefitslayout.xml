@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    tools:context="com.example.newpercept.HowToUseMyBenefitsActivity" >
+
+    <!-- Header aligned to top -->
+    <!-- <include -->
+    <!-- android:id="@+id/header" -->
+    <!-- layout="@layout/headerlayout" /> -->
+
+    <TableRow
+        android:id="@+id/rowfirst"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/howtousemybenefitstitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:height="50dp"
+            android:text="How to Use My Benefits"
+            android:textColor="@color/DarkSeaGreen"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowheader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:height="40dp"
+            android:text="Using My Network Benefits"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowsecond"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/review"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="• Review your benefits with NewPercept network providers"
+            android:textColor="@color/Black"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowthree"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/find"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="• Find a NewPercept network provider"
+            android:textColor="@color/Black"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowfour"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/printcard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="• Print your Member Vision Card if you&apos;d like an Id card for reference"
+            android:textColor="@color/Black"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowfive"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="• There are no claim forms to complete when you see a NewPercept network provider"
+            android:textColor="@color/Black"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowsix"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/blank"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/Black"
+            android:textSize="15sp"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowsixth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/headeroutofnetworkproviders"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:height="40dp"
+            android:paddingTop="6dip"
+            android:text="Using My Out-Of-Network Benefits"
+            android:textColor="@color/Black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowseven"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/eligibleoutofnetwork"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="• You are eligible to receive benefits at out-of-network providers."
+            android:textColor="@color/Black"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/roweight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/findadoc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="• If a provideris not listedon the Find A Doctor locator then the provider is out-of-network and your coverage will be less than in network."
+            android:textColor="@color/Black"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rownine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/claimreimbursement"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="• If you choose to see an out-of-network provider, you will need to submit a claim to NewPercept for reimbursement."
+            android:textColor="@color/Black"/>
+    </TableRow>
+
+
+    <!-- Footer aligned to bottom -->
+    <!-- <include layout="@layout/footerlayout" /> -->
+
+</TableLayout>

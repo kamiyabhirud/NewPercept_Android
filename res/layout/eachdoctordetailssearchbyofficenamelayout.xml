@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <!-- Name Label -->
+
+    <TextView
+        android:id="@+id/tvbyofcdocname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="#43bd00"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Email label -->
+
+    <TextView
+        android:id="@+id/tvbyofcofficename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#EE82EE" />
+
+    <!-- Mobile number label -->
+
+    <TextView
+        android:id="@+id/tvbyofcworkinghrs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Mobile: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvbyofcworkingdays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Mobile: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvbyofczipcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Mobile: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvbyofcdrcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Mobile: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+    
+        <Button
+        android:id="@+id/button_listviewonmapbyofc"
+        android:paddingTop="10dp"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundcorner"
+        android:text=" View On Map " />
+    
+    <Button
+        android:id="@+id/button_productsbyofc"
+        android:paddingTop="5dp"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundcorner"
+        android:text=" Products and Services " />
+
+</LinearLayout>

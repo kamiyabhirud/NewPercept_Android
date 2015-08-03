@@ -1,0 +1,129 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.activity.PayMyBillActivity" >
+    
+<RelativeLayout
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvpaymybill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:text="Pay My Bill"
+        android:textColor="@color/DarkSeaGreen"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvpaymentamounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvpaymybill"
+        android:height="40dp"
+        android:text="Payment Amounts"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radiopaymentamts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvpaymentamounts" >
+
+        <RadioButton
+            android:id="@+id/radioremainingbalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Remaining Balance" />
+
+        <RadioButton
+            android:id="@+id/radioamountdue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount Due" />
+
+        <RadioButton
+            android:id="@+id/radiopastdueamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Past Due Amount" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvpaymentaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radiopaymentamts"
+        android:height="50dp"
+        android:text="Payment Accounts"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvselectaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvpaymentaccount"
+        android:text="Select Payment Accounts" />
+
+    <RadioGroup
+        android:id="@+id/radiopaymentaccounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvselectaccount" >
+    </RadioGroup>
+
+        
+<LinearLayout
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llpaybtn"
+    android:layout_below="@id/radiopaymentaccounts">
+    <Button
+        android:id="@+id/btnpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundcorner"
+        android:layout_marginTop="27dp"
+        android:text=" Pay " />
+    
+     <Button
+        android:id="@+id/btnpaybypaypal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+         android:layout_marginTop="25dp"
+        android:background="@drawable/roundcorner"
+        android:text=" Make A Payment by PayPal " />
+    
+</LinearLayout>
+
+<LinearLayout
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llbtnadd"
+    android:layout_below="@id/llpaybtn">
+    <Button
+        android:id="@+id/btnaddacct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="25dp"
+        android:background="@drawable/roundcorner"
+        android:text=" Add New Account " />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+         android:layout_marginTop="25dp"
+        android:background="@drawable/roundcorner"
+        android:text=" Back " />
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>

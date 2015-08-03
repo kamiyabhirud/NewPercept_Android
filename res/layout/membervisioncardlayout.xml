@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    tools:context="com.example.newpercept.MemberVisionCardActivity" >
+
+<!--   <include -->
+<!--     android:id="@+id/header" -->
+<!--     layout="@layout/headerlayout" /> -->
+    
+    <TextView
+        android:id="@+id/tvmembervisioncard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Member Vision Card "
+        android:height="50dp"
+        android:textColor="@color/DarkSeaGreen"
+        android:textSize="30sp"
+        android:textStyle="bold"   />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:id="@+id/linearmembervisioncard" >   
+     </LinearLayout>  
+     
+    <TextView
+        android:id="@+id/tvnote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text="For more about your coverage visit newpercept.com or call 800-888-8888 "
+        android:textSize="7sp"
+         />
+     
+      <Button
+          android:id="@+id/mvcbutton_back"
+          android:layout_width="108dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:ems="10"
+          android:background="@drawable/roundcorner"
+          android:text=" Back " />
+
+      <!-- Footer aligned to bottom -->
+<!--     <include layout="@layout/footerlayout" /> -->
+</LinearLayout>

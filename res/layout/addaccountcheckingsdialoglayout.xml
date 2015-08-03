@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/chklayoutfirstname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/chkfirstname"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text=" Firstname on the acocunt " />
+
+        <EditText
+            android:id="@+id/chkenterfirstname"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:maxLength="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chklayoutlasttname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/chklastname"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text=" Lastname on the acocunt " />
+
+        <EditText
+            android:id="@+id/chkenterLastname"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:maxLength="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chklayoutacctnumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/chktvacctnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text=" Account Number  " />
+
+        <EditText
+            android:id="@+id/chketacctnumber"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:maxLength="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chklayoutroutingtnumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/chktvroutingnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text=" Routing Number  " />
+
+        <EditText
+            android:id="@+id/chketroutingnumber"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:maxLength="10" />
+    </LinearLayout>
+    
+</LinearLayout>

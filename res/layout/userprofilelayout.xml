@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.newpercept.MyAccounthomeActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:text="User Profile"
+        android:textColor="@color/DarkSeaGreen"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearuserdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:text="Preferred Contact Information"
+        android:textColor="@color/Black"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radiopreferredcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Email" />
+
+        <RadioButton
+            android:id="@+id/radiophone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Phone" />
+
+        <RadioButton
+            android:id="@+id/radiotext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Text" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonupdate"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:text=" Update " />
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:background="@drawable/roundcorner"
+        android:text=" Back " />
+
+</LinearLayout>

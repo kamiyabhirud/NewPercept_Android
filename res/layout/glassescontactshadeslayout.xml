@@ -1,0 +1,55 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+      <TextView
+        android:id="@+id/tvglasses"
+        android:layout_below="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Frames, Contacts and Shades "
+        android:textColor="@color/IndianRed"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+     
+        <ImageView
+            android:id="@+id/ivframes"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:padding="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/glassesframes" />
+
+        <ImageView
+            android:id="@+id/ivcontacts"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:padding="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/contactlens" />
+
+        <ImageView
+            android:id="@+id/ivsunglasses"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:paddingBottom="50dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingTop="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sunglasses" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.activity.AutomaticPaymentsActivity" >
+
+    <TextView
+        android:id="@+id/tvautopay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:text="Automatic Payment "
+        android:textColor="@color/DarkSeaGreen"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    
+        <TextView
+        android:id="@+id/tvaccnumber"
+        android:layout_below="@id/tvautopay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+        <TextView
+        android:id="@+id/tvfrequency"
+        android:layout_below="@id/tvaccnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+        <TextView
+        android:id="@+id/tvrecurringdate"
+        android:layout_below="@id/tvfrequency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvrecurringdate"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/roundcorner"
+        android:text=" Cancel Autopayment " />
+
+    <Button
+        android:id="@+id/button_setupautopay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_cancel"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/roundcorner"
+        android:text=" Setup Autopay " />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.activity.PaymentAccountsActivity" >
+
+    <TextView
+        android:id="@+id/tvheaderpaymentacct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:text="My Payment Accounts"
+        android:textColor="@color/DarkSeaGreen"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvnote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvheaderpaymentacct"
+        android:height="50dp"
+        android:text="A payment account is the account you select for your online payment to the deducted"
+        android:textColor="@color/Black"
+        android:textSize="15sp" />
+
+    <RadioGroup
+        android:id="@+id/radiogrpmypayacct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvnote" >
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radiogrpmypayacct"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/roundcorner"
+        android:text=" Delete Account " />
+
+    <Button
+        android:id="@+id/btnedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btndelete"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/roundcorner"
+        android:text=" Edit Account " />
+
+    <Button
+        android:id="@+id/btnaddnewaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnedit"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/roundcorner"
+        android:text=" Add New Account " />
+
+</RelativeLayout>

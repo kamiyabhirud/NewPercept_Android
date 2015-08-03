@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+  <LinearLayout
+      android:id="@+id/layoutfirstname"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="dip"
+      android:gravity="center_horizontal"
+      android:orientation="horizontal" >
+          
+            <TextView
+                android:id="@+id/firstname"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text=" Firstname on the acocunt " />
+
+            <EditText
+                android:id="@+id/enterfirstname"
+                android:layout_width="150dip"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:maxLength="10" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layoutlasttname"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="1dip"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+          
+            <TextView
+                android:id="@+id/lastname"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text=" Lastname on the acocunt " />
+
+            <EditText
+                android:id="@+id/enterLastname"
+                android:layout_width="150dip"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:maxLength="10" />
+        </LinearLayout>
+    <LinearLayout
+            android:id="@+id/layoutacctnumber"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="1dip"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+          
+            <TextView
+                android:id="@+id/tvacctnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text=" Account Number  " />
+
+            <EditText
+                android:id="@+id/etacctnumber"
+                android:layout_width="150dip"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:maxLength="10" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layoutexpirymonth"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="1dip"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+          
+            <TextView
+                android:id="@+id/tvexpirymonth"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text=" Expiry Month " />
+
+            <EditText
+                android:id="@+id/etexpirymonth"
+                android:layout_width="150dip"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:maxLength="10" />
+        </LinearLayout>
+          <LinearLayout
+            android:id="@+id/layoutexpiryyear"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="1dip"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+          
+            <TextView
+                android:id="@+id/tvexpiryyear"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text=" Expiry Year " />
+
+            <EditText
+                android:id="@+id/etexpiryyear"
+                android:layout_width="150dip"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:maxLength="10" />
+        </LinearLayout>
+         <LinearLayout
+            android:id="@+id/layoutcvv"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="1dip"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+          
+            <TextView
+                android:id="@+id/tvcvv"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text=" CVV " />
+
+            <EditText
+                android:id="@+id/etcvv"
+                android:layout_width="150dip"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:maxLength="10" />
+        </LinearLayout>
+         <LinearLayout
+            android:id="@+id/layoutcardtype"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="1dip"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+          
+            <TextView
+                android:id="@+id/tvcardtype"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text=" Card Type " />
+
+            <EditText
+                android:id="@+id/etcardtype"
+                android:layout_width="150dip"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:maxLength="10" />
+        </LinearLayout>
+</LinearLayout>

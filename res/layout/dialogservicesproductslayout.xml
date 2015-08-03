@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvservices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Services"
+        android:textColor="@color/DarkSeaGreen"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/linearservices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvservices"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvproducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearservices"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Products"
+        android:textColor="@color/DarkSeaGreen"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/linearproducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvproducts"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

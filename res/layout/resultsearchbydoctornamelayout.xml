@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.activity.ResultSearchByDoctorNameActivity" >
+
+    <TextView
+        android:id="@+id/tvdocdetail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:text="List of Doctors"
+        android:textColor="@color/DarkSeaGreen"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+<!--     <Button -->
+<!--         android:id="@+id/button_searchbydoctornamemap" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="20dp" -->
+<!--         android:ems="10" -->
+<!--         android:text=" View On Map " /> -->
+
+    <Button
+        android:id="@+id/button_searchbydoctornamecancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+         android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:text=" Cancel " />
+
+</LinearLayout>

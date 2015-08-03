@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.activity.SearchByDoctorNameActivity" >
+
+    <TextView
+        android:id="@+id/tvfinddocbyname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:text="Find A Doctor By Name"
+        android:textColor="@color/DarkSeaGreen"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/rowseconddoclastname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tvdoclastname"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text=" Doctor Last Name " />
+
+            <EditText
+                android:id="@+id/et_doclastname"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:maxLength="10" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowthreedocfirstname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tvdocfirstname"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text=" Doctor First Name " />
+
+            <EditText
+                android:id="@+id/et_docfirstname"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:maxLength="10" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowfourstate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tvstate"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text=" State " />
+
+            <EditText
+                android:id="@+id/et_state"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:maxLength="10" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/roundcorner"
+            android:ems="10"
+            android:text=" Back " />
+
+        <Button
+            android:id="@+id/button_search"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/roundcorner"
+            android:ems="10"
+            android:text=" Search " />
+
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundcorner"
+            android:ems="10"
+            android:text=" Home " />
+    </LinearLayout>
+
+</LinearLayout>

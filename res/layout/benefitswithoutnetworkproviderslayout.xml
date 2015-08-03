@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.newpercept.BenefitsWithOutNetworkProvidersActivity" >
+
+    <TextView
+        android:id="@+id/tvbenefitswithoutnetwork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="70dp"
+        android:text=" Benefits With-Out-Of Network Providers"
+        android:textColor="@color/DarkSeaGreen"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ExpandableListView
+        android:id="@+id/expandablelvbenefitsoutofnetwork"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvbenefitswithoutnetwork"
+        android:paddingTop="40dp" />
+
+    <Button
+        android:id="@+id/button_okout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/expandablelvbenefitsoutofnetwork"
+        android:background="@drawable/roundcorner"
+        android:text=" Done " />
+
+</RelativeLayout>

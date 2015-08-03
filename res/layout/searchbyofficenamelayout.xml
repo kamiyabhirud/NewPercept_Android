@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.activity.SearchbyOfficeNameActivity" >
+
+    <TextView
+        android:id="@+id/tvfindofficebyname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:text="Find an Office By Name"
+        android:textColor="@color/DarkSeaGreen"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/rowsecondofficename"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tvofficename"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text=" Office Name " />
+
+            <EditText
+                android:id="@+id/et_byofficename"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:maxLength="20" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowthreecity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tvcity"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text=" City " />
+
+            <EditText
+                android:id="@+id/et_citybyofficename"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:maxLength="20" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowfourstate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tvstate"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text=" State " />
+
+            <EditText
+                android:id="@+id/et_statebyofficename"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_weight="1"
+                android:maxLength="20" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundcorner"
+            android:ems="10"
+            android:text=" Back " />
+
+        <Button
+            android:id="@+id/button_searchbyofficename"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundcorner"
+            android:ems="10"
+            android:text=" Search " />
+
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundcorner"
+            android:ems="10"
+            android:text=" Home " />
+    </LinearLayout>
+
+</LinearLayout>
